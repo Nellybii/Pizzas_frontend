@@ -42,7 +42,7 @@ const SearchBarFilter = () => {
   return (
     <div>
       <input
-        style={{ width: '100%' }}
+        style={{ width: '100%', paddingTop:"4px", paddingBottom:"4px" }}
         type="text"
         placeholder="Search..."
         value={searchTerm}
